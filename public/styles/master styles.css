@@ -24,11 +24,13 @@ animations
 body {
     background-color: rgb(80, 80, 80);
     font-family: 'Ibarra Real Nova', serif;
+    font-size: 100%;
     color: white;
 }
 
 a {
     text-decoration: none;
+    
     color: white;
     transition: opacity 400ms ease;
 }
@@ -82,5 +84,7 @@ a:hover {
 }
 
 .description {
-    font-size: 125%;
+    vertical-align:baseline;
+    text-align: justify;
+    font-size: 100%;
 }
