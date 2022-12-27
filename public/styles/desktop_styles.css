@@ -26,10 +26,12 @@ animations
 
     .navlink {
         font-size: 200%;
+        transition: font-size 100ms ease;
     }
 
     .navlink.current {
-        font-size: 300%;
+
+        font-size: 350%;
     }
 
     /* General Content styling */
@@ -43,13 +45,6 @@ animations
         /* figure out how to make the gap between each box the same as between box and border */
         width: 40%;
         height: 40%;
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        /*TODO*/
     }
 
 

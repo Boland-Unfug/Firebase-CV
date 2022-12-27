@@ -37,12 +37,9 @@ A css file for mobile specific stylings
         height: 20%;
     }
 
-    img {
-        width:100%;
-        height: 100%;
-        object-fit: cover;
-    }
+    
     /* Specific Content styling */
+
 
     #menu {
         align-items: center;
