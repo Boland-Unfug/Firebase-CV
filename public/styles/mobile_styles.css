@@ -15,12 +15,12 @@ A css file for mobile specific stylings
         margin-top:-10vh;
     }
 
-    .link {
+    .navlink {
     font-size: 150%;
     margin:2%;
     }
 
-    .link.current {
+    .navlink.current {
     font-size: 250%;
     }
 

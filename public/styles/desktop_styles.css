@@ -24,11 +24,11 @@ animations
         height: 100vh;
     }
 
-    .link {
+    .navlink {
         font-size: 200%;
     }
 
-    .link.current {
+    .navlink.current {
         font-size: 300%;
     }
 
@@ -87,6 +87,10 @@ animations
         font-size: 200%;
     }
 
+    #phonenum{
+        visibility: hidden;
+    }
+    
     #basicinfo {
         width: 80%;
         height: 100%;

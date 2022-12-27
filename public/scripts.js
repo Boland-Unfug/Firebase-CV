@@ -25,5 +25,28 @@ function checkVisible(elm) {
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
     var rectHeight = rect.height * .25;
     return !(rect.bottom - rectHeight < 0 || rect.top - viewHeight + rectHeight >= 0);
-    //return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
   }
+
+
+// copies phone number to clipboard
+    $(document).ready(function(){
+        $("#phone").click(function(){
+            navigator.clipboard.writeText("(970)-318-9469").then(() => {
+                alert("Copied the text: (970)-318-9469");
+              }, () => {
+                alert("failed to copy the text: (970)-318-9469");
+              });{
+            };
+        })
+    });
+//copies email to clipboard
+    $(document).ready(function(){
+        $("#email").click(function(){
+            navigator.clipboard.writeText("booglebeaste@gmail.com").then(() => {
+                alert("Copied the text: booglebeaste@gmail.com");
+              }, () => {
+                alert("failed to copy the text: booglebeaste@gmail.com");
+              });{
+            };
+        })
+    });
